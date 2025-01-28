@@ -3,13 +3,13 @@
 //import java.io.FileNotFoundException;
 //import java.util.Scanner;
 //
-////////// Person.java
-////////class Person
+// Person.java
+//class Person
 ////////{
 ////////    String name="lavaa";
 ////////    String name1="lllll0";
 ////////
-////////    public void display(String name,String name1)
+////////  public void display(String name,String name1)
 ////////    {
 ////////        System.out.println(name+" "+name1);
 ////////////    }
@@ -37,9 +37,9 @@
 ////////////
 ////////////    }
 ////////////}
-////////class Box{
-////////    int length;
-////////    int breadth;
+//class Box{
+//    int length;
+//   int breadth;
 ////////    int height;
 ////////    int volume(){
 ////////        return length * breadth * height;
@@ -98,30 +98,30 @@
 //////////        System.out.println(C.mblno);
 //////////    }
 //////////}
-////////class library{
-////////    String user;
-////////    String book;
-////////    String mail_id;
-////////    int card_no;
-////////    String reminder_message;
-////////}
-////////public class Main{
-////////    public static void main(String []args){
-////////         library user=new library();
-////////         library book=new library();
-////////         library mail_id=new library();
-////////         library card_no=new library();
-////////         library reminder_message=new library();
-////////         user.user="harini";
-////////         book.book="java";
-////////         mail_id.mail_id="harini123@gmail.com";
-////////         card_no.card_no=123;
-////////         System.out.println(user.user+" "+ book.book);
-////////         System.out.println(mail_id.mail_id);
-////////         System.out.println(card_no.card_no);
-////////    }
-////////}
-////////public class Main {
+//class library{
+//    String user;
+//    String book;
+//    String mail_id;
+//    int card_no;
+//    String reminder_message;
+//}
+////public class Main{
+//    public static void main(String []args){
+//         library user=new library();
+//         library book=new library();
+//         library mail_id=new library();
+//         library card_no=new library();
+//         library reminder_message=new library();
+//         user.user="harini";
+//         book.book="java";
+//         mail_id.mail_id="harini123@gmail.com";
+//         card_no.card_no=123;
+//         System.out.println(user.user+" "+ book.book);
+//         System.out.println(mail_id.mail_id);
+//         System.out.println(card_no.card_no);
+//    }
+//}
+//`///////public class Main {
 ////////    public static void main(String[] args) {
 ////////        int num;
 ////////        Scanner sc = new Scanner(System.in);
@@ -145,26 +145,27 @@
 //////
 //////
 ////////                  METHOD & METHOD OVERLOADING
-////////public class Main {
-////////    static int stu_detail(int mblno) {
-////////        return mblno;
-////////    }
-////////        static int mymethodplus ( int x, int y){
-////////         return x + y;
-////////        }
-////////        static String mymethodplus ( String a,String b){
-////////        return a+b;
-////////
-////////    }
-////////
-////////    public static void main(String[]args){
-////////       int stu_detail=987654321;
-////////      int result= mymethodplus(12,13);
-////////       String word=mymethodplus("hello","java");
-////////       System.out.println(stu_detail);
-////////       System.out.println(result);
-////////       System.out.println(word);
-////////    }
+public class Main {
+    static int stu_detail(int mblno) {
+        return mblno;
+    }
+        static int mymethodplus ( int x, int y){
+         return x + y;
+        }
+        static String mymethodplus ( String a,String b){
+        return a+b;
+
+    }
+
+    public static void main(String[]args){
+       int stu_detail=987654321;
+      int result= mymethodplus(12,13);
+       String word=mymethodplus("hello","java");
+       System.out.println(stu_detail);
+       System.out.println(result);
+       System.out.println(word);
+    }
+}
 ////////
 ////////                        RECURSIVE CALL
 ////////public class Main {
@@ -601,22 +602,22 @@
 //
 //    }
 //}
-import java.io.PrintStream;
-import java.util.Scanner;
-public class Main{
-    public static void main(String[]args){
-        Scanner sc=new Scanner(System.in);
-        System.out.println("enter the totalscore:");
-        int totalscore = sc.nextInt();
-        System.out.println("enter a overs:");
-        double overs = sc.nextDouble();
-         System.out.print("The run rate is:");
-         double runRate;
-         runRate=totalscore/overs;
-         System.out.println(runRate);
-
-    }
-}
+//import java.io.PrintStream;
+//import java.util.Scanner;
+//public class Main{
+//    public static void main(String[]args){
+//        Scanner sc=new Scanner(System.in);
+//        System.out.println("enter the totalscore:");
+//        int totalscore = sc.nextInt();
+//        System.out.println("enter a overs:");
+//        double overs = sc.nextDouble();
+//         System.out.print("The run rate is:");
+//         double runRate;
+//         runRate=totalscore/overs;
+//         System.out.println(runRate);
+//
+//    }
+//}
 
 
 
